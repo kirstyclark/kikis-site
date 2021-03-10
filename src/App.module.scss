@@ -1,0 +1,14 @@
+@import './assets/styles/variables';
+
+* {
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+}
+
+.app {
+    background-color: $grey-lite;
+    height: 100vh;
+    width: 100vw;
+}

@@ -1,0 +1,18 @@
+@import '../../assets/styles/variables';
+
+.links {
+    height: 30vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    ul {
+        margin-right: 20%;
+        flex-wrap: wrap;
+
+        li {
+            padding: 5%;
+        }
+    }
+}

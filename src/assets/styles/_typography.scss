@@ -1,5 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mr+Bedfort&family=Oswald&display=swap');
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Fascinate&family=Fondamento&family=Mr+Bedfort&family=Oswald&display=swap');
 
-$title-font: 'Mr Bedfort', cursive;
-$search-font: 'Oswald', sans-serif;
+$title-font : 'Mr Bedfort', cursive;
+$primary-font: 'Oswald', sans-serif;
+
+h2, h3, h4, h5, h6, p, li {
+    color: $orange;
+    font-family: $primary-font;
+    list-style-type: none;
+}
+
+.search {
+    font-style: italic;
+}
+
+.header {
+    font-family: $title-font;
+    color: $orange;
+}
+
+
+@media screen and (min-width: 991px) {
+    .search {
+        p {
+            font-size: 30px;
+            padding: 8vw;
+        }
+    }
+    
+    .header {
+        h1 {
+            font-size: 17vw;
+            padding-left: 4vw;
+        }
+    }
+
+    .projects {
+        h4 {
+            font-size: 20px;
+        }
+    }
+
+    .project {
+        font-size: 40px;
+    }
+
+    li {
+        font-size: 20px;
+    }
+
+    
+    
+}
+
+
+
+// : 'Fascinate', cursive;
+// : 'Fondamento', cursive;

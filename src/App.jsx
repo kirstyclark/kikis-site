@@ -21,8 +21,8 @@ const App = () => {
       <section className={styles.vibes}>
         <Vibes />
       </section>
-      <section className={styles.links}>
-        <Links />
+      <section >
+        <Links className={styles.links}/>
       </section>
     </div>
   );

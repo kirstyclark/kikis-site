@@ -4,10 +4,11 @@
 $title-font : 'Mr Bedfort', cursive;
 $primary-font: 'Oswald', sans-serif;
 
-h2, h3, h4, h5, h6, p, li {
-    color: $orange;
+h2, h3, h4, h5, h6, p, li, a {
+    color: $highlight;
     font-family: $primary-font;
     list-style-type: none;
+    text-decoration: none;
 }
 
 .search {
@@ -16,41 +17,69 @@ h2, h3, h4, h5, h6, p, li {
 
 .header {
     font-family: $title-font;
-    color: $orange;
+    color: $highlight;
 }
 
 
 @media screen and (min-width: 991px) {
+    
     .search {
         p {
-            font-size: 30px;
+            font-size: 4vh;
             padding: 8vw;
         }
     }
-    
-    .header {
-        h1 {
-            font-size: 17vw;
-            padding-left: 4vw;
-        }
-    }
 
-    .projects {
+    .vibes {
+        h2 {
+            font-size: 3.5vw;
+        }
+
         h4 {
-            font-size: 20px;
+            font-size: 2vw;
         }
-    }
-
-    .project {
-        font-size: 40px;
     }
 
     li {
-        font-size: 20px;
+        // font-size: 3vh;
+        font-size: 22px;
     }
 
-    
-    
+    .home {
+        .header {
+            h1 {
+                font-size: 20vh;
+            }
+        }
+
+        .projects {
+            h4 {
+                font-size: 2.5vw;
+            }
+
+            h2 {
+                font-size: 4vw;
+            }
+
+            .archive {
+                font-style: italic;
+            }
+        }
+    }
+
+    .radiokiki_home {
+        .header_collapsed {
+            h1 {
+                font-size: 18vh;
+            }
+        }
+
+        .radiokiki_contents {
+            h2 {
+                font-size: 40px;
+            }
+        }
+    }
 }
 
 

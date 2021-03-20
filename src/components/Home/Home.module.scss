@@ -1,45 +1,43 @@
-@import '../../../assets/styles/variables';
-@import '../../../assets/styles/typography';
+@import '../../assets/styles/variables';
+@import '../../assets/styles/typography';
 
 @media screen and (min-width: 991px) {
 
-    .radiokiki_home {
+    .home {
         height: 94vh;
         display: grid;
         grid-gap: 2px;
-        grid-template-columns: 4fr 1fr;
-        grid-template-rows: 2fr 5fr 5fr;
+        grid-template-columns: 3fr 2fr;
+        grid-template-rows: 2fr 4fr 4fr;
+        overflow: hidden;
 
         section {
             background-color: $background;
         }
 
-        .header_collapsed {
-            height: 20vh;
+        .header {
+            height: 25vh;
             grid-column-start: 1;
             grid-column-end: 3;
             grid-row-start: 1;
             grid-row-end: 2;
         }
 
-        .radiokiki_contents {
-            // width: 75vw;
+        .projects {
             grid-column-start: 1;
             grid-column-end: 2;
             grid-row-start: 2;
             grid-row-end: 4;
         }
 
-        .vibes_collapsed {
-            // width: 25vw;
+        .vibes {
             grid-column-start: 2;
             grid-column-end: 3;
             grid-row-start: 2;
             grid-row-end: 3;
         }
 
-        .links_collapsed {
-            // width: 25vw;
+        .links {
             grid-column-start: 2;
             grid-column-end: 3;
             grid-row-start: 3;

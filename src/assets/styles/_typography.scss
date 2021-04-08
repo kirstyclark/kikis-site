@@ -4,7 +4,15 @@
 $title-font : 'Mr Bedfort', cursive;
 $primary-font: 'Oswald', sans-serif;
 
-h2, h3, h4, h5, h6, p, li, a {
+$font-xl: 50px;
+$font-l: 50px;
+$font-m: 50px;
+$font-s: 24px;
+$font-xs: 17px;
+$font-xxs: 12px;
+
+
+h2, h3, h4, h5, h6, p, li, a, label, select {
     color: $highlight;
     font-family: $primary-font;
     list-style-type: none;
@@ -16,7 +24,9 @@ h2, h3, h4, h5, h6, p, li, a {
 }
 
 .header {
-    font-family: $title-font;
+    h1 {
+        font-family: $title-font;
+    }
     color: $highlight;
 }
 
@@ -24,25 +34,31 @@ h2, h3, h4, h5, h6, p, li, a {
 @media screen and (min-width: 991px) {
     
     .search {
-        p {
-            font-size: 4vh;
-            padding: 8vw;
+
+        .themeSelector {
+            font-size: $font-xs;
         }
+
+        .searchBar {
+            font-size: $font-s;
+        }
+        
     }
 
     .vibes {
         h2 {
-            font-size: 3.5vw;
+            font-size: $font-s;
         }
 
         h4 {
-            font-size: 2vw;
+            font-size: $font-xs;
         }
     }
 
-    li {
-        // font-size: 3vh;
-        font-size: 22px;
+    .links {
+        li {
+            font-size: $font-s;
+        }
     }
 
     .home {
@@ -67,17 +83,13 @@ h2, h3, h4, h5, h6, p, li, a {
         }
     }
 
-    .radiokiki_home {
-        .header_collapsed {
-            h1 {
-                font-size: 18vh;
-            }
+    .showCard {
+        p {
+            font-size: $font-xs;
         }
 
-        .radiokiki_contents {
-            h2 {
-                font-size: 40px;
-            }
+        h4 {
+            font-size: $font-s;
         }
     }
 }

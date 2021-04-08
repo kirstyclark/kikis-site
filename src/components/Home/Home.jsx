@@ -7,17 +7,17 @@ import styles from './Home.module.scss';
 
 const Home = () => {
     return (
-        <div className={styles.home}>
-            <section className={styles.header}>
+        <div className={`homeLayout ${styles.homeLayout}`}>
+            <section className={`headerLayout ${styles.headerLayout}`}>     
                 <Header />
             </section>
-            <section className={styles.projects}>
+            <section className={`contentLayout ${styles.contentLayout}`}>
                 <Projects />
             </section>
-            <section className={styles.vibes}>
+            <section className={`vibesLayout ${styles.vibesLayout}`}>
                 <Vibes />
             </section>
-            <section className={styles.links}>
+            <section className={`linksLayout ${styles.linksLayout}`}>
                 <Links />
             </section>
         </div>

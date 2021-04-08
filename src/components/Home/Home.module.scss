@@ -1,47 +1,7 @@
-@import '../../assets/styles/variables';
-@import '../../assets/styles/typography';
+@import '../../assets/styles/styles.scss';
 
-@media screen and (min-width: 991px) {
 
-    .home {
-        height: 94vh;
-        display: grid;
-        grid-gap: 2px;
-        grid-template-columns: 3fr 2fr;
-        grid-template-rows: 2fr 4fr 4fr;
-        overflow: hidden;
 
-        section {
-            background-color: $background;
-        }
-
-        .header {
-            height: 25vh;
-            grid-column-start: 1;
-            grid-column-end: 3;
-            grid-row-start: 1;
-            grid-row-end: 2;
-        }
-
-        .projects {
-            grid-column-start: 1;
-            grid-column-end: 2;
-            grid-row-start: 2;
-            grid-row-end: 4;
-        }
-
-        .vibes {
-            grid-column-start: 2;
-            grid-column-end: 3;
-            grid-row-start: 2;
-            grid-row-end: 3;
-        }
-
-        .links {
-            grid-column-start: 2;
-            grid-column-end: 3;
-            grid-row-start: 3;
-            grid-row-end: 4;
-        }
-    }    
-}
+// @media screen and (min-width: 991px) {
+ 
+// }

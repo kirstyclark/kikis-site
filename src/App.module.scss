@@ -1,37 +1,37 @@
-@import './assets/styles/variables';
+@import './assets/styles/styles.scss';
 
 * {
     margin-block-end: 0;
     margin-block-start: 0;
     margin-inline-end: 0;
-    margin-inline-start: 0;
+    margin-inline-start: 0;    
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+    height: 100%;
+}
+*::-webkit-scrollbar-track{
+    background: $background;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: $highlight;
 }
 
 .app {
-    background-color: $highlight;
+    max-height: 100vh;
     height: 100vh;
+    max-width: 100vw;
     width: 100vw;
+    background-color: $highlight;
+    overflow: hidden;
 }
 
-@media screen and (min-width: 991px) {
 
-    .app {
-        display: grid;
-        grid-gap: 2px;
-        grid-template-rows: 1fr 12fr;
 
-        .nav {
-            grid-row-start: 1;
-            grid-row-end: 2;
-            background-color: $background;
-        }
+// @media screen and (min-width: 991px) {
 
-        .content {
-            grid-row-start: 2;
-            grid-row-end: 3;
-        }
-    }
-}
+// }
 
 
 

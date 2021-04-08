@@ -6,11 +6,11 @@ import { shows } from "./data/shows.js";
 
 const App = () => {
   return (
-    <div className={styles.app}>
-        <section className={styles.nav}>
+    <div className={`app ${styles.app}`}>
+        <section className={`navDesk ${styles.navDesk}`}>
             <NavBar />
         </section>
-        <section className={styles.content}>
+        <section className={styles.mainDesk}>
             <Routes shows={shows}/>
         </section>
     </div>

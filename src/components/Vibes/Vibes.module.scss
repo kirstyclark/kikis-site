@@ -1,6 +1,18 @@
-@import '../../assets/styles/variables';
-@import '../../assets/styles/typography';
+// @import '../../assets/styles/variables';
+// @import '../../assets/styles/typography';
 
-.img {
-    height: 150px;
+// .img {
+//     height: 150px;
+// }
+
+.vibes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .vibesContainer {
+        width: 80%;
+        // height: 100%;
+        padding: 5%;
+    }
 }

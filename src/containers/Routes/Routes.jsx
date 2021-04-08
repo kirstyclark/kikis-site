@@ -20,10 +20,10 @@ const Routes = (props) => {
         <Router>
             <Switch>
             <Route path='/radiokiki' >
-                <RadioKiki shows={shows} />
+                <RadioKiki />
             </Route>
             <Route path='/canyoufeelit' >
-                <CanYouFeelIt shows={shows} />
+                <CanYouFeelIt />
             </Route>
             <Route path='/toptwenty' >
                 <TopTwenty />

@@ -1,10 +1,29 @@
-@import '../../assets/styles/typography';
-@import '../../assets/styles/variables';
+@import '../../assets/styles/styles';
 
 .search {
     width: 100vw;
-    height: 6vh;
+    height: 5vh;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
+
+    .themeSelector {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 2vw;
+
+        select {
+            -webkit-appearance: none;
+            background: $background;
+            border: $highlight 2px solid;
+            width: 6vw;
+            padding: 0 1vw;
+            margin: 0 1vw;
+        }
+    }  
+
+    .searchBar {
+        margin: 0 2vw;
+    }
 }

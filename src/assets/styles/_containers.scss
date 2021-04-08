@@ -1,0 +1,26 @@
+.homeLayout,
+.contentFocus {
+    max-height: 95vh;
+}
+
+.navDesk,
+.headerLayout, 
+.contentLayout,
+.vibesLayout,
+.linksLayout,
+.headerCollapsed,
+.vibesCollapsed,
+.linksCollapsed,
+.contentBig {
+    background-color: $background;
+}
+
+.linksCollapsed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBig {
+    overflow: scroll;
+}

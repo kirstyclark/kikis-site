@@ -1,17 +1,17 @@
 @import '../../assets/styles/styles.scss';
 
 .header {
-    height: 100%;
-    display: grid;
-    grid-template-rows: 6fr 1fr;
 
     .title {
-        grid-row-start: 1;
-        grid-row-end: 2;
+        height: 100%;
+        min-height: 15vh;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
     }
 
-    .mystery {
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

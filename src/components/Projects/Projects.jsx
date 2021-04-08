@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Projects.module.scss';
+import '../../assets/styles/styles.scss';
 import { Link } from 'react-router-dom';
 
 const Projects = (props) => {
@@ -22,7 +23,7 @@ const Projects = (props) => {
                     <h2>Top Twenty</h2>
                 </Link>
                 <Link to='/archive'>
-                    <h2>Archive</h2>
+                    <h2 className={styles.archive}>Archive</h2>
                 </Link>
             </div>
         </div>

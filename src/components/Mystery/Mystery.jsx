@@ -1,11 +1,33 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './Mystery.module.scss';
+import { mystery } from '../../data/mystery.js';
 
 const Mystery = () => {
+
+    let date;
+
+    useEffect(() => {
+        date = (new Date()).getDate();
+    }, [])
+
+    let mysteryToday = mystery[0];
+
     return (
-        <div className={styles.mysteryContainer}>
-            <div className={styles.mysteryContent}>
-                MYSTERY OF THE DAY ...............
+        <div className={`mysteryContainer ${styles.mysteryContainer}`}>
+            <div className={styles.mysteryMotion}>
+                <p  className={`mysteryDay ${styles.mysteryDay}`}>
+                    MYSTERY OF THE DAY... {mysteryToday}
+                    MYSTERY OF THE DAY... {mysteryToday}
+                    MYSTERY OF THE DAY... {mysteryToday}
+                    MYSTERY OF THE DAY... {mysteryToday}
+                    MYSTERY OF THE DAY... {mysteryToday}
+                    MYSTERY OF THE DAY... {mysteryToday}
+                    MYSTERY OF THE DAY... {mysteryToday}
+                    MYSTERY OF THE DAY... {mysteryToday}
+                    MYSTERY OF THE DAY... {mysteryToday}
+                    MYSTERY OF THE DAY... {mysteryToday}
+                    MYSTERY OF THE DAY... {mysteryToday}
+                </p>
             </div>
         </div>
     )

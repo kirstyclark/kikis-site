@@ -1,7 +1,37 @@
 @import '../../assets/styles/styles.scss';
 
 .mysteryContainer {
-    // height:  4vh;
-    // background-color: $highlight;
+    background-color: $highlight;
     border-top: $highlight 2px solid;
+    display: flex;
+    word-wrap: none;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    .mysteryMotion {
+        display: flex; 
+        align-items: center;
+        width: 200vw;
+        position:relative;
+        -webkit-animation: position 20s linear infinite; 
+        animation: position 20s linear infinite;
+
+        @keyframes position {
+            0% {left: 0}
+            50% {left: -50vw}
+            100% {left: -100vw}
+        }
+
+        p {
+            width: 200vw;
+            max-height: 3vh;
+            overflow: hidden;
+            // margin: auto;
+            // text-overflow: clip;
+        }
+        
+    }
+    
 }
+

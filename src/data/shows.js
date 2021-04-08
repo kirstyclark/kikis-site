@@ -7,7 +7,7 @@ import seventeen from '../assets/images/radiokiki/radiokiki-17.jpg';
 import swimming from '../assets/images/radiokiki/radiokiki-swimming.jpg';
 import barefoot from '../assets/images/radiokiki/radiokiki-barefoot.jpg';
 import hill from '../assets/images/radiokiki/radiokiki-hill.jpg';
-import blue from '../assets/images/radiokiki/radiokiki-blue.jpg';
+// import blue from '../assets/images/radiokiki/radiokiki-blue.jpg';
 import dice from '../assets/images/radiokiki/radiokiki-dice.jpg';
 import box from '../assets/images/radiokiki/radiokiki-box.jpg';
 
@@ -88,7 +88,8 @@ export const shows = [
         'name' : 'Radio Kiki Dark Blue',
         'date' : '30.06.20',
         'link' : 'https://www.mixcloud.com/ehfm/radio-kiki-290620/',
-        'image' : blue,
+        // 'image' : blue,
+        'image' : dice,
         'category' : 'Radio Kiki',
         'tags' : ['ambient','sleep','experimental']
     },

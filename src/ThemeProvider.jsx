@@ -1,16 +1,14 @@
 import React, { createContext, useState } from 'react';
-import App from './App';
 
 export const ThemeContext = createContext({});
 
-const ThemeProvider = () => {
-
-    const [theme, setTheme] = useState('classic');
+const ThemeProvider = (props) => {
 
     const toggleTheme = (value) => {
         setTheme(value);
-        console.log(theme);
     } 
+
+    const [theme, setTheme] = useState('classic');
 
     const themeData = {
         theme: theme,
@@ -19,7 +17,7 @@ const ThemeProvider = () => {
 
     return (
         <ThemeContext.Provider value={themeData} >
-            <App />
+            {props.children}
         </ThemeContext.Provider>
     )
 }

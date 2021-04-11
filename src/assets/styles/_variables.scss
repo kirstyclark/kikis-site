@@ -1,19 +1,21 @@
-// .classic{
-    $background: #6e6e6e;
-    $highlight: #ff4a02;
-// }
 
-// .forest {
-//     $background: #184E2D;
-//     $highlight: #389457;
-// }
+$background-classic: #6e6e6e;
+$highlight-classic: #ff4a02;
 
-// $background: #989898;
-// $background: #2F323A;
-// $highlight2: #0E0E52;
+$background-forest: #184E2D;
+$highlight-forest: #389457;
+
+$background-pinky: #DB00B6;
+$highlight-pinky: #8900F2;
+
+$background-blue: #03045e;
+$highlight-blue: #0077b6;
+
+$border-classic: $highlight-classic 2px solid;
+$border-forest: $highlight-forest 2px solid;
+$border-pinky: $highlight-pinky 2px solid;
+$border-blue: $highlight-blue 2px solid;
 
 
 
 
-
-// $highlight2: #45C476;

@@ -5,21 +5,28 @@ import styles from './NavBar.module.scss'
 const NavBar = () => {
 
     const themeContext = useContext(ThemeContext);
+
+    const selectTheme = (event) => {
+        themeContext.toggleTheme(event.target.value);
+    }
     
     return (
-        <div className='navbar' className={styles.search}>
+    <div className={themeContext.theme}>
+        <div className={`navbar ${styles.search}`}>
             <div className={styles.themeSelector}>
                 <label>THEME</label>
-                <select onSelect={themeContext.toggleTheme}>
+                <select onChange={(event) => selectTheme(event)}>
                     <option value='classic'>classic</option>
                     <option value='forest'>forest</option>
                     <option value='pinky'>pinky</option>
+                    <option value='blue'>deep blue</option>
                 </select>
             </div>
             <div className={styles.searchBar}>
                 <p>SEARCH</p>
             </div>
         </div>
+    </div>
     )
 }
 

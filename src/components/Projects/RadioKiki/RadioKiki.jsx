@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ThemeContext } from '../../../ThemeProvider';
 import styles from './RadioKiki.module.scss';
 import '../../../assets/styles/styles.scss';
 import Vibes from '../../Vibes';
@@ -9,9 +10,11 @@ import ShowCard from '../ShowCard/ShowCard';
 import { shows } from '../../../data/shows.js';
 
 const RadioKiki = () => {
+
+    const themeContext = useContext(ThemeContext);
     
     return (
-        <div className='contentFocus'>
+        <div className={`contentFocus ${themeContext.theme}`}>
             <section className='headerCollapsed'>
                 <Link to='/' >
                         <Header />

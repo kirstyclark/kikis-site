@@ -1,0 +1,322 @@
+@import './_variables.scss';
+
+.classic {
+    *::-webkit-scrollbar-track,
+    .navDesk,
+    .navbar,
+    .headerLayout, 
+    .contentLayout,
+    .vibesLayout,
+    .linksLayout,
+    .headerCollapsed,
+    .vibesCollapsed,
+    .linksCollapsed,
+    .contentBig {
+        background-color: $background-classic;
+    }
+
+    *::-webkit-scrollbar-thumb,
+    .app,
+    .mysteryContainer {
+        background-color: $highlight-classic;
+    }
+
+    h2, 
+    h3, 
+    h4, 
+    h5, 
+    h6, 
+    p, 
+    li, 
+    a, 
+    label, 
+    select,
+    .header {
+        color: $highlight-classic;
+    }
+
+    .mysteryContainer {
+        border-top: $border-classic;
+    }
+
+    .navbar {
+        select {
+            background-color: $background-classic;
+            border: $border-classic;
+        }
+    }
+
+    .showCard {
+        border: $border-classic;
+        img {
+            border: $border-classic;
+        }
+        .cardInfo {
+            li {
+                border: $border-classic;
+            }
+        }
+    }
+
+    .mysteryDay {
+        color: $background-classic !important;
+    }
+
+    .navbar,
+    .header,
+    .mysteryContainer,
+    .vibeLayout,
+    .mysteryDay {
+        border-bottom: $border-classic;
+    }
+
+    .header {
+        border-top: $border-classic;
+    }
+
+    .contentBig,
+    .contentLayout {
+        border-right: $border-classic;
+    }
+}
+
+.forest {
+    *::-webkit-scrollbar-track,
+    .navDesk,
+    .navbar,
+    .headerLayout, 
+    .contentLayout,
+    .vibesLayout,
+    .linksLayout,
+    .headerCollapsed,
+    .vibesCollapsed,
+    .linksCollapsed,
+    .contentBig {
+        background-color: $background-forest;
+    }
+
+    *::-webkit-scrollbar-thumb,
+    .app,
+    .mysteryContainer {
+        background-color: $highlight-forest;
+    }
+
+    h2, 
+    h3, 
+    h4, 
+    h5, 
+    h6, 
+    p, 
+    li, 
+    a, 
+    label, 
+    select,
+    .header {
+        color: $highlight-forest;
+    }
+
+    .mysteryContainer {
+        border-top: $border-forest;
+    }
+
+    .navbar {
+        select {
+            background-color: $background-forest;
+            border: $border-forest;
+        }
+    }
+
+    .showCard {
+        border: $border-forest;
+        img {
+            border: $border-forest;
+        }
+        .cardInfo {
+            li {
+                border: $border-forest;
+            }
+        }
+    }
+
+    .mysteryDay {
+        color: $background-forest !important;
+    }
+
+    .navbar,
+    .header,
+    .mysteryContainer,
+    .vibeLayout,
+    .mysteryDay {
+        border-bottom: $border-forest;
+    }
+
+    .header {
+        border-top: $border-forest;
+    }
+
+    .contentBig,
+    .contentLayout {
+        border-right: $border-forest;
+    }
+}
+
+.pinky {
+    *::-webkit-scrollbar-track,
+    .navDesk,
+    .navbar,
+    .headerLayout, 
+    .contentLayout,
+    .vibesLayout,
+    .linksLayout,
+    .headerCollapsed,
+    .vibesCollapsed,
+    .linksCollapsed,
+    .contentBig {
+        background-color: $background-pinky;
+    }
+
+    *::-webkit-scrollbar-thumb,
+    .app,
+    .mysteryContainer {
+        background-color: $highlight-pinky;
+    }
+
+    h2, 
+    h3, 
+    h4, 
+    h5, 
+    h6, 
+    p, 
+    li, 
+    a, 
+    label, 
+    select,
+    .header {
+        color: $highlight-pinky;
+    }
+
+    .mysteryContainer {
+        border-top: $border-pinky;
+    }
+
+    .navbar {
+        select {
+            background-color: $background-pinky;
+            border: $border-pinky;
+        }
+    }
+
+    .showCard {
+        border: $border-pinky;
+        img {
+            border: $border-pinky;
+        }
+        .cardInfo {
+            li {
+                border: $border-pinky;
+            }
+        }
+    }
+
+    .mysteryDay {
+        color: $background-pinky !important;
+    }
+
+
+    .navbar,
+    .header,
+    .mysteryContainer,
+    .vibeLayout,
+    .mysteryDay {
+        border-bottom: $border-pinky;
+    }
+
+    .header {
+        border-top: $border-pinky;
+    }
+
+    .contentBig,
+    .contentLayout {
+        border-right: $border-pinky;
+    }
+}
+
+.blue {
+    *::-webkit-scrollbar-track,
+    .navDesk,
+    .navbar,
+    .headerLayout, 
+    .contentLayout,
+    .vibesLayout,
+    .linksLayout,
+    .headerCollapsed,
+    .vibesCollapsed,
+    .linksCollapsed,
+    .contentBig {
+        background-color: $background-blue;
+    }
+
+    *::-webkit-scrollbar-thumb,
+    .app,
+    .mysteryContainer {
+        background-color: $highlight-blue;
+    }
+
+    h2, 
+    h3, 
+    h4, 
+    h5, 
+    h6, 
+    p, 
+    li, 
+    a, 
+    label, 
+    select,
+    .header {
+        color: $highlight-blue;
+    }
+
+    .mysteryContainer {
+        border-top: $border-blue;
+    }
+
+    .navbar {
+        select {
+            background-color: $background-blue;
+            border: $border-blue;
+        }
+    }
+
+    .showCard {
+        border: $border-blue;
+        img {
+            border: $border-blue;
+        }
+        .cardInfo {
+            li {
+                border: $border-blue;
+            }
+        }
+    }
+
+    .mysteryDay {
+        color: $background-blue !important;
+    }
+
+    .navbar,
+    .header,
+    .mysteryContainer,
+    .vibeLayout,
+    .mysteryDay {
+        border-bottom: $border-blue;
+    }
+
+    .header {
+        border-top: $border-blue;
+    }
+
+    .contentBig,
+    .contentLayout {
+        border-right: $border-blue;
+    }
+}

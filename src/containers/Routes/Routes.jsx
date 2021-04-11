@@ -11,9 +11,7 @@ import Archive from '../../components/Projects/Archive';
 import Vibes from '../../components/Vibes';
 import Home from '../../components/Home';
 
-const Routes = (props) => {
-
-    const {shows} = props;
+const Routes = () => {
 
     return (
         <>

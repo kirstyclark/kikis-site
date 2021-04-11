@@ -1,6 +1,5 @@
 .app {
     display: grid;
-    gap: 2px;
     grid-template-rows: 1fr 13fr;
 
     .navDesk {
@@ -18,7 +17,6 @@
 
 .homeLayout {
     display: grid;
-    gap: 2px;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr 1fr 1fr;
 
@@ -53,7 +51,6 @@
 
 .contentFocus {
     display: grid;
-    grid-gap: 2px;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 2fr 5fr 5fr;
 

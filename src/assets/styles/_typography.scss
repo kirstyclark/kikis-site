@@ -13,7 +13,6 @@ $font-xxs: 12px;
 
 
 h2, h3, h4, h5, h6, p, li, a, label, select {
-    color: $highlight;
     font-family: $primary-font;
     list-style-type: none;
     text-decoration: none;
@@ -25,15 +24,12 @@ h2, h3, h4, h5, h6, p, li, a, label, select {
 
 .header {
     font-family: $title-font;
-    color: $highlight;
 }
 
 .mysteryDay {
-    color: $background !important;
     font-size: $font-xs;
     font-style: italic;
 }
-
 
 @media screen and (min-width: 991px) {
 
@@ -49,7 +45,6 @@ h2, h3, h4, h5, h6, p, li, a, label, select {
             line-height: 100%;
         }
     }
-    
     
     .search {
 

@@ -11,17 +11,10 @@
     width: 10px;
     height: 100%;
 }
-*::-webkit-scrollbar-track{
-    background: $background;
-}
-*::-webkit-scrollbar-thumb{
-    background-color: $highlight;
-}
 
 .app {
     height: 100vh;
     width: 100vw;
-    background-color: $highlight;
     overflow: hidden;
 }
 

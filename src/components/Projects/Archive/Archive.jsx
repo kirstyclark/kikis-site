@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ThemeContext } from '../../../ThemeProvider';
 import styles from './Archive.module.scss';
 import '../../../assets/styles/styles.scss';
 import Vibes from '../../Vibes';
@@ -7,8 +8,11 @@ import Header from '../../Header';
 import { Link } from 'react-router-dom';
 
 const Archive = () => {
+
+    const themeContext = useContext(ThemeContext);
+
     return (
-        <div className='contentFocus'>
+        <div className={`contentFocus ${themeContext.theme}`}>
             <section className='headerCollapsed'>
                 <Link to='/' >
                         <Header />

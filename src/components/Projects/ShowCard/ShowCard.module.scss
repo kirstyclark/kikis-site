@@ -1,7 +1,6 @@
 @import '../../../assets/styles/styles.scss';
 
 .showCard {
-    border: $highlight 2px solid;
     height: 260px;
     width: 220px;
     margin: 20px 10px;
@@ -17,7 +16,6 @@
         align-items: center;
 
         img {
-            border: $highlight 2px solid;
             width: 100%;
             margin-bottom: 5px;
             height: 120px;
@@ -42,7 +40,6 @@
                 padding-inline-start: 0;
         
                 li {
-                    border: $highlight 2px solid;
                     margin: 5px 5px 0 0;
                     padding: 2px 5px;
                 }

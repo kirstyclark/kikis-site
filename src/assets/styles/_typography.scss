@@ -30,6 +30,10 @@ h2, h3, h4, h5, h6, p, li, a, label, select, button, .searchInput {
     h1 {
         font-family: $title-font;
     }
+
+    .headerLinks {
+        font-size: $font-s;
+    }
 }
 
 .mysteryDay {
@@ -58,7 +62,7 @@ h2, h3, h4, h5, h6, p, li, a, label, select, button, .searchInput {
             font-size: $font-s;
 
             select {
-                font-size: $font-xs;
+                font-size: $font-xxs;
             }
         }
 

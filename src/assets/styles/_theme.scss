@@ -78,7 +78,8 @@
     }
 
     .contentBig,
-    .contentLayout {
+    .contentLayout,
+    .headerTitle {
         border-right: $border-classic;
     }
 
@@ -162,7 +163,8 @@
     }
 
     .contentBig,
-    .contentLayout {
+    .contentLayout,
+    .headerTitle {
         border-right: $border-forest;
     }
 }
@@ -246,7 +248,8 @@
     }
 
     .contentBig,
-    .contentLayout {
+    .contentLayout,
+    .headerTitle {
         border-right: $border-pinky;
     }
 }
@@ -329,7 +332,8 @@
     }
 
     .contentBig,
-    .contentLayout {
+    .contentLayout,
+    .headerTitle {
         border-right: $border-blue;
     }
 }

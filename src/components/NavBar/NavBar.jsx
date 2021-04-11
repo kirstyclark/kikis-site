@@ -1,13 +1,20 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../../ThemeProvider';
-import styles from './NavBar.module.scss'
+import styles from './NavBar.module.scss';
+import { Link } from 'react-router-dom';
 
-const NavBar = () => {
+const NavBar = (props) => {
 
     const themeContext = useContext(ThemeContext);
+    const {setSearch} = props;
 
     const selectTheme = (event) => {
         themeContext.toggleTheme(event.target.value);
+    }
+
+    const handleSearch = (event) => {
+        event.preventDefault();
+        setSearch(event.target[0].value);
     }
     
     return (
@@ -22,9 +29,14 @@ const NavBar = () => {
                     <option value='blue'>deep blue</option>
                 </select>
             </div>
-            <div className={styles.searchBar}>
-                <p>SEARCH</p>
-            </div>
+            {/* <div className={styles.searchBar}> */}
+                {/* <form onSubmit={(event)=>handleSearch(event)}> */}
+                    {/* <input className='searchInput' type='text' placeholder='type here'></input> */}
+                    {/* <Link to='/searchresults' > */}
+                        {/* <button type='submit'>SEARCH</button> */}
+                    {/* </Link> */}
+                {/* </form> */}
+            {/* </div> */}
         </div>
     </div>
     )

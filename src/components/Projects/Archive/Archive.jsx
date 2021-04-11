@@ -5,18 +5,16 @@ import '../../../assets/styles/styles.scss';
 import Vibes from '../../Vibes';
 import Links from '../../Links';
 import Header from '../../Header';
-import { Link } from 'react-router-dom';
 
-const Archive = () => {
+const Archive = (props) => {
 
     const themeContext = useContext(ThemeContext);
+    const {currentPlay} = props;
 
     return (
         <div className={`contentFocus ${themeContext.theme}`}>
             <section className='headerCollapsed'>
-                <Link to='/' >
-                        <Header />
-                </Link>
+                <Header currentPlay={currentPlay}/>
             </section>
             <section className='contentBig'>
                 <div className={styles.contentRadio}>

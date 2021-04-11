@@ -8,6 +8,7 @@
     justify-content: space-between;
 
     .themeSelector {
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -22,6 +23,31 @@
     }  
 
     .searchBar {
+        height: 100%;
         margin: 0 2vw;
+
+        form {
+            height: 100%;
+            input, button {
+                -webkit-appearance: none;
+                background: none;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+            }
+
+            input{
+                width: 15vw;
+            }
+            
+            button {
+                border: none;
+            }
+
+            input:focus, button:focus {
+                outline: none;
+                cursor: pointer;
+            }
+        }
     }
 }

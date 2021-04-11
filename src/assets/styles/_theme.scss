@@ -31,7 +31,9 @@
     a, 
     label, 
     select,
-    .header {
+    .header,
+    button,
+    .searchInput {
         color: $highlight-classic;
     }
 
@@ -66,7 +68,8 @@
     .header,
     .mysteryContainer,
     .vibeLayout,
-    .mysteryDay {
+    .mysteryDay,
+    .searchInput {
         border-bottom: $border-classic;
     }
 
@@ -78,6 +81,7 @@
     .contentLayout {
         border-right: $border-classic;
     }
+
 }
 
 .forest {
@@ -111,7 +115,9 @@
     a, 
     label, 
     select,
-    .header {
+    .header,
+    button,
+    .searchInput  {
         color: $highlight-forest;
     }
 
@@ -146,7 +152,8 @@
     .header,
     .mysteryContainer,
     .vibeLayout,
-    .mysteryDay {
+    .mysteryDay,
+    .searchInput {
         border-bottom: $border-forest;
     }
 
@@ -191,7 +198,9 @@
     a, 
     label, 
     select,
-    .header {
+    .header,
+    button,
+    .searchInput  {
         color: $highlight-pinky;
     }
 
@@ -227,7 +236,8 @@
     .header,
     .mysteryContainer,
     .vibeLayout,
-    .mysteryDay {
+    .mysteryDay,
+    .searchInput {
         border-bottom: $border-pinky;
     }
 
@@ -272,7 +282,9 @@
     a, 
     label, 
     select,
-    .header {
+    .header,
+    button,
+    .searchInput {
         color: $highlight-blue;
     }
 
@@ -307,7 +319,8 @@
     .header,
     .mysteryContainer,
     .vibeLayout,
-    .mysteryDay {
+    .mysteryDay,
+    .searchInput {
         border-bottom: $border-blue;
     }
 

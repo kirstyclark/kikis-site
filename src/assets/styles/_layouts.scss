@@ -13,6 +13,12 @@
         grid-row-end: 3;
         height: 95vh;
     }
+
+    .player {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
 }
 
 .homeLayout {

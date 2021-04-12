@@ -17,15 +17,13 @@
         grid-column-start: 1;
         grid-column-end: 2;
         margin-left: 3vw;
+        width: min-content;
         
         ul {
             width: min-content;
             max-height: 50vh;
             overflow: scroll;
             padding-right: 2vw;
-        }
-
-        li:hover {
             cursor: pointer;
         }
 

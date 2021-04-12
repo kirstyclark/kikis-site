@@ -11,7 +11,8 @@
     .headerCollapsed,
     .vibesCollapsed,
     .linksCollapsed,
-    .contentBig {
+    .contentBig,
+    .navbar select {
         background-color: $background-classic;
     }
 
@@ -37,31 +38,26 @@
         color: $highlight-classic;
     }
 
+    .mysteryDay {
+        color: $background-classic !important;
+    }
+
+    .showCard,
+    .showCard img,
+    .cardInfo li,
+    .navbar select {
+        border: $border-classic;
+    }
+
+    .header,
     .mysteryContainer {
         border-top: $border-classic;
     }
 
-    .navbar {
-        select {
-            background-color: $background-classic;
-            border: $border-classic;
-        }
-    }
-
-    .showCard {
-        border: $border-classic;
-        img {
-            border: $border-classic;
-        }
-        .cardInfo {
-            li {
-                border: $border-classic;
-            }
-        }
-    }
-
-    .mysteryDay {
-        color: $background-classic !important;
+    .contentBig,
+    .contentLayout,
+    .headerTitle {
+        border-right: $border-classic;
     }
 
     .navbar,
@@ -72,17 +68,6 @@
     .searchInput {
         border-bottom: $border-classic;
     }
-
-    .header {
-        border-top: $border-classic;
-    }
-
-    .contentBig,
-    .contentLayout,
-    .headerTitle {
-        border-right: $border-classic;
-    }
-
 }
 
 .forest {
@@ -96,7 +81,8 @@
     .headerCollapsed,
     .vibesCollapsed,
     .linksCollapsed,
-    .contentBig {
+    .contentBig,
+    .navbar select {
         background-color: $background-forest;
     }
 
@@ -118,35 +104,30 @@
     select,
     .header,
     button,
-    .searchInput  {
+    .searchInput {
         color: $highlight-forest;
-    }
-
-    .mysteryContainer {
-        border-top: $border-forest;
-    }
-
-    .navbar {
-        select {
-            background-color: $background-forest;
-            border: $border-forest;
-        }
-    }
-
-    .showCard {
-        border: $border-forest;
-        img {
-            border: $border-forest;
-        }
-        .cardInfo {
-            li {
-                border: $border-forest;
-            }
-        }
     }
 
     .mysteryDay {
         color: $background-forest !important;
+    }
+
+    .showCard,
+    .showCard img,
+    .cardInfo li,
+    .navbar select {
+        border: $border-forest;
+    }
+
+    .header,
+    .mysteryContainer {
+        border-top: $border-forest;
+    }
+
+    .contentBig,
+    .contentLayout,
+    .headerTitle {
+        border-right: $border-forest;
     }
 
     .navbar,
@@ -156,16 +137,6 @@
     .mysteryDay,
     .searchInput {
         border-bottom: $border-forest;
-    }
-
-    .header {
-        border-top: $border-forest;
-    }
-
-    .contentBig,
-    .contentLayout,
-    .headerTitle {
-        border-right: $border-forest;
     }
 }
 
@@ -180,7 +151,8 @@
     .headerCollapsed,
     .vibesCollapsed,
     .linksCollapsed,
-    .contentBig {
+    .contentBig,
+    .navbar select {
         background-color: $background-pinky;
     }
 
@@ -206,33 +178,27 @@
         color: $highlight-pinky;
     }
 
-    .mysteryContainer {
-        border-top: $border-pinky;
-    }
-
-    .navbar {
-        select {
-            background-color: $background-pinky;
-            border: $border-pinky;
-        }
-    }
-
-    .showCard {
-        border: $border-pinky;
-        img {
-            border: $border-pinky;
-        }
-        .cardInfo {
-            li {
-                border: $border-pinky;
-            }
-        }
-    }
-
     .mysteryDay {
         color: $background-pinky !important;
     }
 
+    .showCard,
+    .showCard img,
+    .cardInfo li,
+    .navbar select {
+        border: $border-pinky;
+    }
+
+    .header,
+    .mysteryContainer {
+        border-top: $border-pinky;
+    }
+
+    .contentBig,
+    .contentLayout,
+    .headerTitle {
+        border-right: $border-pinky;
+    }
 
     .navbar,
     .header,
@@ -241,16 +207,6 @@
     .mysteryDay,
     .searchInput {
         border-bottom: $border-pinky;
-    }
-
-    .header {
-        border-top: $border-pinky;
-    }
-
-    .contentBig,
-    .contentLayout,
-    .headerTitle {
-        border-right: $border-pinky;
     }
 }
 
@@ -265,7 +221,8 @@
     .headerCollapsed,
     .vibesCollapsed,
     .linksCollapsed,
-    .contentBig {
+    .contentBig,
+    .navbar select {
         background-color: $background-blue;
     }
 
@@ -291,31 +248,26 @@
         color: $highlight-blue;
     }
 
+    .mysteryDay {
+        color: $background-blue !important;
+    }
+
+    .showCard,
+    .showCard img,
+    .cardInfo li,
+    .navbar select {
+        border: $border-blue;
+    }
+
+    .header,
     .mysteryContainer {
         border-top: $border-blue;
     }
 
-    .navbar {
-        select {
-            background-color: $background-blue;
-            border: $border-blue;
-        }
-    }
-
-    .showCard {
-        border: $border-blue;
-        img {
-            border: $border-blue;
-        }
-        .cardInfo {
-            li {
-                border: $border-blue;
-            }
-        }
-    }
-
-    .mysteryDay {
-        color: $background-blue !important;
+    .contentBig,
+    .contentLayout,
+    .headerTitle {
+        border-right: $border-blue;
     }
 
     .navbar,
@@ -325,15 +277,5 @@
     .mysteryDay,
     .searchInput {
         border-bottom: $border-blue;
-    }
-
-    .header {
-        border-top: $border-blue;
-    }
-
-    .contentBig,
-    .contentLayout,
-    .headerTitle {
-        border-right: $border-blue;
     }
 }

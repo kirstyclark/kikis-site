@@ -8,7 +8,7 @@ import RadioKiki from '../../components/Projects/RadioKiki';
 import CanYouFeelIt from '../../components/Projects/CanYouFeelIt';
 import TopTwenty from '../../components/Projects/TopTwenty';
 import Archive from '../../components/Projects/Archive';
-import Vibes from '../../components/Vibes';
+import VibesTest from '../../components/Vibes/VibesTest';
 // import SearchResults from '../../components/SearchResults';
 import Home from '../../components/Home';
 
@@ -33,7 +33,7 @@ const Routes = (props) => {
                     <Archive />
                 </Route>
                 <Route path='/vibes' >
-                    <Vibes />
+                    <VibesTest />
                 </Route>
                 {/* <Route path='/searchresults' >
                     <SearchResults currentPlay={currentPlay} search={search}/>

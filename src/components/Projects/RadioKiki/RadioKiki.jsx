@@ -16,7 +16,7 @@ const RadioKiki = (props) => {
     return (
         <div className={`contentFocus ${themeContext.theme}`}>
             <section className='headerCollapsed'>
-                <Header currentPlay={currentPlay} />
+                <Header />
             </section>
             <section className='contentBig'>
                 <div className='contentRadio'>

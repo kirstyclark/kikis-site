@@ -18,8 +18,10 @@ const Archive = (props) => {
             </section>
             <section className='contentBig'>
                 <div className={styles.contentRadio}>
-                    <h2>Archvee bba</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut hic facilis perferendis animi aperiam?</p>
+                    <div className='projectDescription'>
+                        <h2>Archive</h2>
+                        <p>Incoming!</p>
+                    </div>
                 </div>
             </section>
             <section className='vibesCollapsed'>

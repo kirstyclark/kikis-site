@@ -10,8 +10,17 @@ const Header = () => {
 
     return (
         <div className={`header ${styles.header} ${themeContext.theme}`}>
-            <div className={styles.title}>
+
+            <div className={`title ${styles.title}`}>
                 <div className={`headerTitle ${styles.headerTitle}`}>
+                    <Link to='/' >
+                            <h1>KIKI's SITE</h1>
+                    </Link>
+                </div>
+            </div>
+
+            <div className={`titleWithNav ${styles.titleWithNav}`}>
+                <div className={`headerTitleCollapsed ${styles.headerTitleCollapsed}`}>
                     <Link to='/' >
                             <h1>KIKI's SITE</h1>
                     </Link>

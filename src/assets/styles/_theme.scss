@@ -55,8 +55,7 @@
     }
 
     .contentBig,
-    .contentLayout,
-    .headerTitle {
+    .contentLayout {
         border-right: $border-classic;
     }
 
@@ -67,6 +66,10 @@
     .mysteryDay,
     .searchInput {
         border-bottom: $border-classic;
+    }
+
+    .headerLinks {
+        border-left: $border-classic;
     }
 }
 
@@ -125,8 +128,7 @@
     }
 
     .contentBig,
-    .contentLayout,
-    .headerTitle {
+    .contentLayout {
         border-right: $border-forest;
     }
 
@@ -137,6 +139,10 @@
     .mysteryDay,
     .searchInput {
         border-bottom: $border-forest;
+    }
+
+    .headerLinks {
+        border-left: $border-forest;
     }
 }
 
@@ -195,8 +201,7 @@
     }
 
     .contentBig,
-    .contentLayout,
-    .headerTitle {
+    .contentLayout{
         border-right: $border-pinky;
     }
 
@@ -207,6 +212,10 @@
     .mysteryDay,
     .searchInput {
         border-bottom: $border-pinky;
+    }
+
+    .headerLinks {
+        border-left: $border-pinky;
     }
 }
 
@@ -265,8 +274,7 @@
     }
 
     .contentBig,
-    .contentLayout,
-    .headerTitle {
+    .contentLayout {
         border-right: $border-blue;
     }
 
@@ -277,5 +285,9 @@
     .mysteryDay,
     .searchInput {
         border-bottom: $border-blue;
+    }
+
+    .headerLinks {
+        border-left: $border-blue;
     }
 }

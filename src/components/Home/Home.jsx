@@ -11,6 +11,7 @@ const Home = (props) => {
     const themeContext = useContext(ThemeContext);
     const {currentPlay} = props;
 
+
     return (
         <div className={`homeLayout ${styles.homeLayout} ${themeContext.theme}`}>
             <section className={`headerLayout ${styles.headerLayout}`}>     

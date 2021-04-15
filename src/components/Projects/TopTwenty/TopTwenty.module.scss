@@ -16,19 +16,13 @@
     .gridList {
         grid-column-start: 1;
         grid-column-end: 2;
-        margin-left: 3vw;
         width: min-content;
         
         ul {
             width: min-content;
             max-height: 50vh;
             overflow: scroll;
-            padding-right: 2vw;
             cursor: pointer;
-        }
-
-        ul::-webkit-scrollbar {
-            width: 5px !important;
         }
     }
 
@@ -46,6 +40,34 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .gridList {
+        margin-left: 3vw;
+        
+        ul {
+            padding-right: 2vw;
+        }
+
+        ul::-webkit-scrollbar {
+            width: 5px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gridList {
+        margin-left: 2vw;
+        
+        ul {
+            padding-right: 1vw;
+        }
+
+        ul::-webkit-scrollbar {
+            width: 4px !important;
         }
     }
 }

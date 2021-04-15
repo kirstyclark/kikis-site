@@ -20,7 +20,7 @@ const CanYouFeelIt = (props) => {
                 <Header currentPlay={currentPlay}/>
             </section>
             <section className='contentBig'>
-                <div className={styles.contentRadio}>
+                <div className='contentRadio'>
                     <div className='projectDescription'>
                         <h2>Can you feel it!</h2>
                         <p>

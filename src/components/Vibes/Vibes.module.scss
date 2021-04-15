@@ -1,17 +1,19 @@
 @import '../../assets/styles/styles.scss';
 
-// .img {
-//     height: 150px;
-// }
-
 .vibes {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
+}
 
+@media screen and (min-width: 768px) {
     .vibesContainer {
-        width: 80%;
-        height: 100%;
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .vibesContainer {
         padding: 5%;
     }
 }

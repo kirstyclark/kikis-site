@@ -55,8 +55,8 @@ const TopTwenty = (props) => {
                         <h2>Top Twenty</h2>
                         <p>My top twenty things, updated every Thursday.</p>
                     </div>
-                    <div className={styles.topTwentyGrid}>
-                        <div className={styles.gridList}>
+                    <div className={`topTwentyGrid ${styles.topTwentyGrid}`}>
+                        <div className={`gridList ${styles.gridList}`}>
                             {/* <h4 onClick={()=>alphabet()} className={styles.click}>Alphabetised</h4> */}
                             <h4>Archive</h4>
                             <ul>
@@ -67,7 +67,7 @@ const TopTwenty = (props) => {
                                 }
                             </ul>
                         </div>
-                        <div className={styles.gridFocus}>
+                        <div className={`gridFocus ${styles.gridFocus}`}>
                             <h3>{chosenList.date}</h3>
                             <ol>
                                 {

@@ -12,13 +12,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 2vw;
 
         select {
             -webkit-appearance: none;
-            width: 6vw;
-            padding: 0 1vw;
-            margin: 0 1vw;
         }
     }  
 
@@ -50,4 +46,28 @@
             }
         }
     }
+}
+
+@media screen and (min-width: 768px) {
+    .themeSelector {
+        margin: 0 2vw;
+
+        select {
+            width: 6vw;
+            padding: 0 1vw;
+            margin: 0 1vw;
+        }
+    }  
+}
+
+@media screen and (max-width: 767px) {
+    .themeSelector {
+        margin: 0 3vw;
+
+        select {
+            width: 15vw;
+            padding: 0 1vw;
+            margin: 0 3vw;
+        }
+    }  
 }

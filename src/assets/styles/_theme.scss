@@ -68,8 +68,10 @@
         border-bottom: $border-classic;
     }
 
-    .headerLinks {
-        border-left: $border-classic;
+    @media screen and (min-width: 768px) {
+        .headerLinks {
+            border-left: $border-classic;
+        }
     }
 }
 
@@ -141,8 +143,10 @@
         border-bottom: $border-forest;
     }
 
-    .headerLinks {
-        border-left: $border-forest;
+    @media screen and (min-width: 768px) {
+        .headerLinks {
+            border-left: $border-forest;
+        }
     }
 }
 
@@ -214,8 +218,10 @@
         border-bottom: $border-pinky;
     }
 
-    .headerLinks {
-        border-left: $border-pinky;
+    @media screen and (min-width: 768px) {
+        .headerLinks {
+            border-left: $border-pinky;
+        }
     }
 }
 
@@ -287,7 +293,9 @@
         border-bottom: $border-blue;
     }
 
-    .headerLinks {
-        border-left: $border-blue;
+    @media screen and (min-width: 768px) {
+        .headerLinks {
+            border-left: $border-blue;
+        }
     }
 }

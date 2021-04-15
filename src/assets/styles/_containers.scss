@@ -12,7 +12,6 @@
 
 .contentBig {
     overflow: scroll;
-    padding-bottom: 15vh;
 }
 
 .vibesLayout,
@@ -36,12 +35,41 @@
 }
 
 .projectDescription {
-    padding: 3vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 
     a {
         text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .showContainer {
+        margin: 0 1vw;
+    }
+
+    .contentBig {
+        padding-bottom: 15vh;
+    }
+
+    .projectDescription {
+        padding: 3vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .showContainer {
+        margin: 0 3vw;
+    }
+
+    .contentBig {
+        padding-bottom: 5vh;
+    }
+
+    .projectDescription {
+        padding: 1vh 2vh;
     }
 }

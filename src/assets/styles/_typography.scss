@@ -4,12 +4,14 @@
 $title-font : 'Mr Bedfort', cursive;
 $primary-font: 'Oswald', sans-serif;
 
+$font-xxl: 60px;
 $font-xl: 50px;
 $font-l: 45px;
 $font-m: 35px;
 $font-s: 24px;
 $font-xs: 17px;
-$font-xxs: 12px;
+$font-xxs: 15px;
+$font-xxxs: 12px;
 
 
 h2, h3, h4, h5, h6, p, li, a, label, select, button, .searchInput {
@@ -30,18 +32,19 @@ h2, h3, h4, h5, h6, p, li, a, label, select, button, .searchInput {
     h1 {
         font-family: $title-font;
     }
+}
+
+.mysteryDay {
+    font-size: $font-xxs;
+    font-style: italic;
+}
+
+
+@media screen and (min-width: 768px) {
 
     .headerLinks {
         font-size: $font-s;
     }
-}
-
-.mysteryDay {
-    font-size: $font-xs;
-    font-style: italic;
-}
-
-@media screen and (min-width: 991px) {
 
     .homeLayout{
         h1 {
@@ -49,6 +52,7 @@ h2, h3, h4, h5, h6, p, li, a, label, select, button, .searchInput {
             line-height: 100%;
         }
     }
+
     .contentFocus{
         h1 {
             font-size: 11vh;
@@ -62,7 +66,7 @@ h2, h3, h4, h5, h6, p, li, a, label, select, button, .searchInput {
             font-size: $font-s;
 
             select {
-                font-size: $font-xxs;
+                font-size: $font-xxxs;
             }
         }
 
@@ -72,7 +76,7 @@ h2, h3, h4, h5, h6, p, li, a, label, select, button, .searchInput {
             }
 
             input {
-                font-size: $font-xs;
+                font-size: $font-xxs;
             }
         }
     }
@@ -110,7 +114,7 @@ h2, h3, h4, h5, h6, p, li, a, label, select, button, .searchInput {
 
     .showCard {
         p {
-            font-size: $font-xs;
+            font-size: $font-xxs;
         }
 
         h4 {
@@ -119,7 +123,62 @@ h2, h3, h4, h5, h6, p, li, a, label, select, button, .searchInput {
     }
 }
 
+@media screen and (max-width: 767px) {
 
+    .header {
+        .headerTitle {
+            font-size: 15vw;
+            line-height: 20vw;
+        }
 
-// : 'Fascinate', cursive;
-// : 'Fondamento', cursive;
+        .headerTitleCollapsed {
+            font-size: 15vw;
+            line-height: 20vw;
+        }
+
+        .headerLinks {
+            font-size: $font-xs;
+        }
+    }
+
+    .projects {
+        .currentTitle {
+            font-size: $font-s;
+        }    
+        h2 {
+            font-size: $font-m;
+        }
+        .archive {
+            font-style: italic;
+        }
+    }
+
+    .showCard {
+        p {
+            font-size: $font-xxxs;
+        }
+
+        h4 {
+            font-size: $font-xxs;
+        }
+
+        li {
+            font-size: $font-xxxs;
+        }
+    }
+
+    .topTwentyGrid {
+        .gridList {
+            li {
+                font-size: $font-xxxs;
+            }
+        }
+
+        .gridFocus {
+            li {
+                font-size: $font-xxs;
+            }
+        }
+        
+    }
+}

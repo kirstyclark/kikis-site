@@ -4,8 +4,7 @@ import styles from './VibesTest.module.scss';
 import '../../../assets/styles/styles.scss';
 import Header from '../../Header';
 import Projects from '../../Projects';
-import Links from '../../Links';
-
+import VibeQuestions from '../VibeQuestions';
 
 const VibesTest = () => {
 
@@ -20,7 +19,8 @@ const VibesTest = () => {
                 <Projects />
             </section>
             <section className={`vibesLayout ${styles.vibesLayout}`}>
-                Vibes
+                {/* <VibeQuestions /> */}
+                coming very very soon my love..... patience...
             </section>
         </div>
     )

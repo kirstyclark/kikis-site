@@ -46,7 +46,7 @@ h2, h3, h4, h5, h6, p, li, a, label, select, button, .searchInput {
         font-size: $font-s;
     }
 
-    .homeLayout{
+    .homeLayout, .vibesFocus{
         h1 {
             font-size: 19vh;
             line-height: 100%;
@@ -100,11 +100,11 @@ h2, h3, h4, h5, h6, p, li, a, label, select, button, .searchInput {
     .projects {
 
         h4 {
-            font-size: $font-m;
+            font-size: $font-s;
         }
 
         h2 {
-            font-size: $font-l;
+            font-size: $font-m;
         }
 
         .archive {
@@ -142,12 +142,13 @@ h2, h3, h4, h5, h6, p, li, a, label, select, button, .searchInput {
     }
 
     .projects {
-        .currentTitle {
-            font-size: $font-s;
-        }    
-        h2 {
-            font-size: $font-m;
+        h4 {
+            font-size: $font-xs;
         }
+
+        h2 {
+            font-size: $font-s;
+        }   
         .archive {
             font-style: italic;
         }

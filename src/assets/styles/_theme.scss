@@ -34,7 +34,8 @@
     select,
     .header,
     button,
-    .searchInput {
+    .searchInput,
+    .fa {
         color: $highlight-classic;
     }
 
@@ -43,8 +44,7 @@
     }
 
     .showCard,
-    .showCard img,
-    .cardInfo li,
+    .showCard li,
     .navbar select {
         border: $border-classic;
     }
@@ -71,6 +71,12 @@
     @media screen and (min-width: 768px) {
         .headerLinks {
             border-left: $border-classic;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .links {
+            border-top: $border-classic;
         }
     }
 }
@@ -109,7 +115,8 @@
     select,
     .header,
     button,
-    .searchInput {
+    .searchInput,
+    .fa {
         color: $highlight-forest;
     }
 
@@ -118,8 +125,7 @@
     }
 
     .showCard,
-    .showCard img,
-    .cardInfo li,
+    .showCard li,
     .navbar select {
         border: $border-forest;
     }
@@ -146,6 +152,11 @@
     @media screen and (min-width: 768px) {
         .headerLinks {
             border-left: $border-forest;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        .links {
+            border-top: $border-forest;
         }
     }
 }
@@ -184,7 +195,8 @@
     select,
     .header,
     button,
-    .searchInput  {
+    .searchInput,
+    .fa {
         color: $highlight-pinky;
     }
 
@@ -193,8 +205,7 @@
     }
 
     .showCard,
-    .showCard img,
-    .cardInfo li,
+    .showCard li,
     .navbar select {
         border: $border-pinky;
     }
@@ -221,6 +232,12 @@
     @media screen and (min-width: 768px) {
         .headerLinks {
             border-left: $border-pinky;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .links {
+            border-top: $border-pinky;
         }
     }
 }
@@ -259,7 +276,8 @@
     select,
     .header,
     button,
-    .searchInput {
+    .searchInput,
+    .fa {
         color: $highlight-blue;
     }
 
@@ -268,8 +286,7 @@
     }
 
     .showCard,
-    .showCard img,
-    .cardInfo li,
+    .showCard li,
     .navbar select {
         border: $border-blue;
     }
@@ -296,6 +313,12 @@
     @media screen and (min-width: 768px) {
         .headerLinks {
             border-left: $border-blue;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .links {
+            border-top: $border-blue;
         }
     }
 }

@@ -32,12 +32,15 @@ const Header = () => {
                     <Link to='/canyoufeelit' >
                         <h4>Can You Feel It</h4>
                     </Link>
+                    <Link to='/easylikeakikimorning' >
+                        <h4>Easy Like A Kiki Morning</h4>
+                    </Link>
                     <Link to='/toptwenty'>
                         <h4>Top Twenty</h4>
                     </Link>
-                    <Link to='/archive'>
+                    {/* <Link to='/archive'>
                         <h4>Archive</h4>
-                    </Link>
+                    </Link> */}
                 </div>
             </div> 
             <div className={styles.mystery}>

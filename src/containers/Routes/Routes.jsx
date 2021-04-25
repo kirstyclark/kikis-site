@@ -11,6 +11,7 @@ import Archive from '../../components/Projects/Archive';
 import VibesTest from '../../components/Vibes/VibesTest';
 // import SearchResults from '../../components/SearchResults';
 import Home from '../../components/Home';
+import KikiMorning from '../../components/Projects/KikiMorning/KikiMorning';
 
 const Routes = (props) => {
 
@@ -25,6 +26,9 @@ const Routes = (props) => {
                 </Route>
                 <Route path='/canyoufeelit' >
                     <CanYouFeelIt setCurrentPlay={setCurrentPlay} />
+                </Route>
+                <Route path='/easylikeakikimorning' >
+                    <KikiMorning setCurrentPlay={setCurrentPlay} />
                 </Route>
                 <Route path='/toptwenty' >
                     <TopTwenty />

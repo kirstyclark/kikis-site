@@ -1,5 +1,30 @@
 export const topTwentys = [
     {
+        date: '15.04.21',
+        contents: [
+            'Sore muscles the day after the gym',
+            'Bruno Mars',
+            'Big hugs',
+            'Receiving a text from someone who you were just about to text',
+            'Vocoders',
+            'Doing well at something',
+            'First sip of coffee in my favourite mug',
+            'This website',
+            'Carrot cake',
+            'Writing to do lists',
+            'Clean sheets',
+            "Solving a probkem and thinking, damn I'm smart",
+            'Good bant',
+            'Grilled meat',
+            'Tiny birds coming out for spring',
+            'Getting the beers in w the boyos',
+            'Not cold hands',
+            'Washing my hair once a week',
+            "Reading people's journal-esque instagram posts",
+            'Staying hydrated'
+        ]
+    },
+    {
         date: '08.04.21',
         contents: [
             'Sun shining on your face',

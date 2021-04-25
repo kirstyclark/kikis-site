@@ -12,9 +12,9 @@ const Vibes = (props) => {
             <div className={styles.vibesContainer}>
                 <h2>Vibes Calculator</h2>
                 <h4>incoming...</h4>
-                {/* <Link to='/vibes' >
+                <Link to='/vibes' >
                     <h4>Click to begin...</h4>
-                </Link> */}
+                </Link>
             </div>
          </div>
     )

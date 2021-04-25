@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../../../ThemeProvider';
-import styles from './RadioKiki.module.scss';
+import styles from './KikiMorning.module.scss';
 import '../../../assets/styles/styles.scss';
 import Vibes from '../../Vibes';
 import Links from '../../Links';
@@ -8,7 +8,7 @@ import Header from '../../Header';
 import ShowCard from '../../ShowCard';
 import { shows } from '../../../data/shows.js';
 
-const RadioKiki = (props) => {
+const KikiMorning = (props) => {
 
     const themeContext = useContext(ThemeContext);
     const {currentPlay, setCurrentPlay} = props;
@@ -21,18 +21,17 @@ const RadioKiki = (props) => {
             <section className='contentBig'>
                 <div className='contentRadio'>
                     <div className='projectDescription'>
-                        <h2>Radio Kiki</h2>
+                        <h2>Easy Like A Kiki Morning</h2>
                         <p>
-                            Concepts untainted by sound or sight, just rolling about shutting ideas down before they even get a chance to start.<br></br> 
-                            Thoughts are little seeds underground which need sunlight, let them breathe. Water your mind, cultivate!<br></br>  
-                            Join me, the writer, right at the start, right on for the motivation slash thoughtfulness slash white noise you know you need.<br></br> 
-                            All tunes can be found, on the rocks, in <a href='https://open.spotify.com/playlist/6gzSbLTVSvOqV5Mc60gjSy?si=3152bc77467a45bb' target='_blank'>this spotify playlist</a>.
+                            Easy like a Kiki Morning is a hug, an encouraging nod, the sun shining on your face as you walk down the road in the morning. <br/>
+                            Including Kiki’s Big Top 10, Birds B2B Water and conversations with fellow creatives… <br/>
+                            Join Kiki for a soothing, inspiring and motivating start to your week, broadcast last Monday morning of the month at 10.00 on whynow Radio.
                         </p>
                     </div>
                     <div className='showContainer'>
                         {   
                             shows.map(show => {
-                                if (show.category === 'radioKiki') {
+                                if (show.category === 'kikiMorning') {
                                     return <ShowCard name={show.name} date={show.date} link={show.link} image={show.image} tags={show.tags} setCurrentPlay={setCurrentPlay}/>
                                 } 
                             })
@@ -50,4 +49,4 @@ const RadioKiki = (props) => {
     )
 }
 
-export default RadioKiki
+export default KikiMorning

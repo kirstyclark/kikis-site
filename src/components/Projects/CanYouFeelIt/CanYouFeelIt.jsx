@@ -6,8 +6,8 @@ import Vibes from '../../Vibes';
 import Links from '../../Links';
 import Header from '../../Header';
 import { Link } from 'react-router-dom';
-import ShowCard from '../ShowCard/ShowCard';
-import { feelIt } from '../../../data/feelIt.js';
+import ShowCard from '../../ShowCard';
+import { shows } from '../../../data/shows.js';
 
 const CanYouFeelIt = (props) => {
 
@@ -32,8 +32,10 @@ const CanYouFeelIt = (props) => {
                     </div>
                     <div className='showContainer'>
                         {
-                            feelIt.map(show => {
-                                return <ShowCard name={show.name} date={show.date} link={show.link} image={show.image} tags={show.tags} setCurrentPlay={setCurrentPlay}/>
+                            shows.map(show => {
+                                if (show.category === 'canYouFeelIt') {
+                                    return <ShowCard name={show.name} date={show.date} link={show.link} image={show.image} tags={show.tags} setCurrentPlay={setCurrentPlay}/>
+                                } 
                             })
                         }
                     </div>

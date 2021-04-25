@@ -1,5 +1,6 @@
 .homeLayout,
-.contentFocus {
+.contentFocus,
+.vibesFocus {
     max-height: 95vh;
     height: 100%;
 }
@@ -24,6 +25,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 5vh;
 
     .showContainer {
         width: fit-content;

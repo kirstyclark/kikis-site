@@ -3,7 +3,7 @@ import styles from './Links.module.scss';
 
 const Links = () => {
     return (
-        <div className='links' className={styles.links}>
+        <div className={`links ${styles.links}`}>
             <ul>
                 <a href='https://www.instagram.com/soft.singer/' target='_blank'>
                     <li>INSTAGRAM</li>

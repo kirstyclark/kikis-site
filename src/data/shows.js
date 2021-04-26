@@ -10,6 +10,10 @@ import hill from '../assets/images/radiokiki/radiokiki-hill.jpg';
 // import blue from '../assets/images/radiokiki/radiokiki-blue.jpg';
 import dice from '../assets/images/radiokiki/radiokiki-dice.jpg';
 import box from '../assets/images/radiokiki/radiokiki-box.jpg';
+import timer from '../assets/images/radiokiki/radiokiki-timer.jpeg';
+import bus from '../assets/images/radiokiki/radiokiki-bus.jpeg';
+import orange from '../assets/images/radiokiki/radiokiki-orange.jpeg';
+import grad from '../assets/images/radiokiki/radiokiki-grad.jpeg';
 
 import cover from '../assets/images/feelIt/feelIt.jpg';
 
@@ -113,6 +117,38 @@ export const shows = [
         'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&autoplay=1&feed=%2Fehfm%2Fradio-kiki-270420%2F',
         'image' : box,
         'tags' : ['rap','grind','techno']
+    },
+    {
+        'name' : 'Radio Kiki Sleep Timer',
+        'category' : 'radioKiki',
+        'date' : '21.11.19',
+        'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fsoftsinger%2Fradio-kiki-sleep-timer%2F',
+        'image' : timer,
+        'tags' : ['slow','sleep','relax']
+    },
+    {
+        'name' : 'Radio Kiki Open Top Bus Tour',
+        'category' : 'radioKiki',
+        'date' : '30.10.19',
+        'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2FResonance%2Fradio-kiki-open-top-bus-tour-30-october-2019%2F',
+        'image' : bus,
+        'tags' : ['jazz','ambient','smooth']
+    },
+    {
+        'name' : 'Radio Kiki The Orange',
+        'category' : 'radioKiki',
+        'date' : '30.08.19',
+        'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fehfm%2Fradio-kiki-30082019%2F',
+        'image' : orange,
+        'tags' : ['slow','pop','beats']
+    },
+    {
+        'name' : 'Radio Kiki New Grad',
+        'category' : 'radioKiki',
+        'date' : '30.08.19',
+        'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fehfm%2Fradio-kiki-090819%2F',
+        'image' : grad,
+        'tags' : ['r&b','pop','sleep']
     },
 
 

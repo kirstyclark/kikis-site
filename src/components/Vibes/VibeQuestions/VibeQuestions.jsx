@@ -33,6 +33,7 @@ const VibeQuestions = () => {
     const [currentQ, setQ] = useState(1);
 
     const handleClick = (e) => {
+        console.log(response);
         const answer = e.target.value;
         response.push(answer);
         setQ(currentQ + 1);

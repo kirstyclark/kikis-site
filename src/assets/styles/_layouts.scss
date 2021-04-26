@@ -226,4 +226,42 @@
             display: grid;
         }
     }
+
+    .vibesFocus {
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+        width: 100vw;
+        
+        .headerLayout {
+            grid-row-start: 1;
+            grid-row-end: 2;
+            width: 100vw;
+        }
+    
+        .vibesLayout {
+            grid-row-start: 2;
+            grid-row-end: 3;
+            width: 100vw;
+        }
+    
+        .vibesCollapsed {
+            display: none;
+        }
+
+        .contentLayout {
+            display: none;
+        }
+    
+        .linksCollapsed {
+            display: none;
+        }
+    
+        .title {
+            display: none;
+        }
+    
+        .titleWithNav {  
+            display: grid;
+        }
+    }
 }

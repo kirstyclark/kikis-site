@@ -6,16 +6,14 @@ import Vibes from '../Vibes';
 import Links from '../Links';
 import styles from './Home.module.scss';
 
-const Home = (props) => {
+const Home = () => {
 
     const themeContext = useContext(ThemeContext);
-    const {currentPlay} = props;
-
 
     return (
         <div className={`homeLayout ${styles.homeLayout} ${themeContext.theme}`}>
             <section className={`headerLayout ${styles.headerLayout}`}>     
-                <Header currentPlay={currentPlay}/>
+                <Header />
             </section>
             <section className={`contentLayout ${styles.contentLayout}`}>
                 <Projects />

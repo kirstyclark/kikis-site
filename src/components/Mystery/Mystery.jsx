@@ -4,11 +4,11 @@ import { mystery } from '../../data/mystery.js';
 
 const Mystery = () => {
 
-    let date;
+    // let date;
 
-    useEffect(() => {
-        date = (new Date()).getDate();
-    }, [])
+    // useEffect(() => {
+    //     date = (new Date()).getDate();
+    // }, [])
 
     let mysteryToday = mystery[11];
 

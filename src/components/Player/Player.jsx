@@ -4,7 +4,6 @@ import styles from './Player.module.scss';
 const Player = (props) => {
 
     // const themeContext = useContext(ThemeContext);
-    const {setSearch} = props;
     const {currentPlay} = props;
 
     return (

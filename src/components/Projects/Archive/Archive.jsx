@@ -6,10 +6,9 @@ import Vibes from '../../Vibes';
 import Links from '../../Links';
 import Header from '../../Header';
 
-const Archive = (props) => {
+const Archive = () => {
 
     const themeContext = useContext(ThemeContext);
-    const {currentPlay} = props;
 
     return (
         <div className={`contentFocus ${themeContext.theme}`}>

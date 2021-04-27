@@ -11,7 +11,7 @@ import { shows } from '../../../data/shows.js';
 const RadioKiki = (props) => {
 
     const themeContext = useContext(ThemeContext);
-    const {currentPlay, setCurrentPlay} = props;
+    const {setCurrentPlay} = props;
     
     return (
         <div className={`contentFocus ${themeContext.theme}`}>

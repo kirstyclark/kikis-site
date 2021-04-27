@@ -3,7 +3,7 @@ import { ThemeContext } from '../../ThemeProvider';
 import styles from './Vibes.module.scss';
 import { Link } from 'react-router-dom';
 
-const Vibes = (props) => {
+const Vibes = () => {
 
     const themeContext = useContext(ThemeContext);
 

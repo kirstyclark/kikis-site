@@ -7,13 +7,14 @@ import seventeen from '../assets/images/radiokiki/radiokiki-17.jpg';
 import swimming from '../assets/images/radiokiki/radiokiki-swimming.jpg';
 import barefoot from '../assets/images/radiokiki/radiokiki-barefoot.jpg';
 import hill from '../assets/images/radiokiki/radiokiki-hill.jpg';
-// import blue from '../assets/images/radiokiki/radiokiki-blue.jpg';
+import blue from '../assets/images/radiokiki/radiokiki-blue.jpg';
 import dice from '../assets/images/radiokiki/radiokiki-dice.jpg';
 import box from '../assets/images/radiokiki/radiokiki-box.jpg';
 import timer from '../assets/images/radiokiki/radiokiki-timer.jpeg';
 import bus from '../assets/images/radiokiki/radiokiki-bus.jpeg';
 import orange from '../assets/images/radiokiki/radiokiki-orange.jpeg';
 import grad from '../assets/images/radiokiki/radiokiki-grad.jpeg';
+import old from '../assets/images/radiokiki/radiokiki-old.jpeg';
 
 import cover from '../assets/images/feelIt/feelIt.jpg';
 
@@ -98,8 +99,7 @@ export const shows = [
         'category' : 'radioKiki',
         'date' : '30.06.20',
         'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&autoplay=1&feed=%2Fehfm%2Fradio-kiki-290620%2F',
-        'image' : dice,
-        // 'image' : blue,
+        'image' : blue,
         'tags' : ['ambient','sleep','experimental']
     },
     {
@@ -150,6 +150,70 @@ export const shows = [
         'image' : grad,
         'tags' : ['r&b','pop','sleep']
     },
+    {
+        'name' : 'Radio Kiki Portfolio',
+        'category' : 'radioKiki',
+        'date' : '16.06.19',
+        'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fsoftsinger%2Fradio-kiki-portfolio%2F',
+        'image' : old,
+        'tags' : ['meta','short','poem']
+    },
+    {
+        'name' : 'Radio Kiki 5.5',
+        'category' : 'radioKiki',
+        'date' : '02.06.19',
+        'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fsoftsinger%2Fradio-kiki-55%2F',
+        'image' : old,
+        'tags' : ['psychedelic','folk','chill']
+    },
+    {
+        'name' : 'Radio Kiki 5.4',
+        'category' : 'radioKiki',
+        'date' : '26.05.19',
+        'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fsoftsinger%2Fradio-kiki-54%2F',
+        'image' : old,
+        'tags' : ['psychedelic','rock','acid']
+    },
+    {
+        'name' : 'Radio Kiki 5.3',
+        'category' : 'radioKiki',
+        'date' : '19.05.19',
+        'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fsoftsinger%2Fradio-kiki-53%2F',
+        'image' : old,
+        'tags' : ['psychedelic','slow','rap']
+    },
+    {
+        'name' : 'Radio Kiki 5.2',
+        'category' : 'radioKiki',
+        'date' : '12.05.19',
+        'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fsoftsinger%2Fradio-kiki-52%2F',
+        'image' : old,
+        'tags' : ['chill','ambient','sleep']
+    },
+    {
+        'name' : 'Radio Kiki 5.1',
+        'category' : 'radioKiki',
+        'date' : '05.05.19',
+        'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fsoftsinger%2Fradio-kiki-51%2F',
+        'image' : old,
+        'tags' : ['rap','old','pop']
+    },
+    {
+        'name' : 'Radio Kiki 5.0',
+        'category' : 'radioKiki',
+        'date' : '28.04.19',
+        'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fsoftsinger%2Fradio-kiki-50%2F',
+        'image' : old,
+        'tags' : ['rap','techno','smooth']
+    },
+    {
+        'name' : 'Radio Kiki April Egg',
+        'category' : 'radioKiki',
+        'date' : '07.04.19',
+        'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fsoftsinger%2Fradio-kiki-april-egg%2F',
+        'image' : old,
+        'tags' : ['lofi','fun','smooth']
+    },
 
 
 
@@ -161,6 +225,8 @@ export const shows = [
         'image' : cover,
         'tags' : ['dance','garage','pop']
     },
+
+
 
     {
         'name' : 'Easy Like A Kiki Morning 2',

@@ -1,0 +1,32 @@
+@import '../../../../assets/styles/styles.scss';
+
+.topTwentyGrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    overflow: hidden;
+
+    .back {
+        position: fixed;
+        margin-left: 5vw;
+
+        .fa {
+            margin-right: 1vw;
+        }
+    }
+
+    .gridFocus{
+        li {
+            list-style-type: none;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (max-width: 767px) {
+    h3 {
+        margin-left: 10vw;
+    }
+}

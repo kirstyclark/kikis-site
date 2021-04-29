@@ -9,6 +9,7 @@ import CanYouFeelIt from '../../components/Projects/CanYouFeelIt';
 import TopTwenty from '../../components/Projects/TopTwenty';
 import Archive from '../../components/Projects/Archive';
 import VibesTest from '../../components/Vibes/VibesTest';
+import Alphabetised from '../../components/Projects/TopTwenty/Alphabetised';
 // import SearchResults from '../../components/SearchResults';
 import Home from '../../components/Home';
 import KikiMorning from '../../components/Projects/KikiMorning/KikiMorning';
@@ -32,6 +33,9 @@ const Routes = (props) => {
                 </Route>
                 <Route path='/toptwenty' >
                     <TopTwenty />
+                </Route>
+                <Route path='/topalphabetised' >
+                    <Alphabetised />
                 </Route>
                 <Route path='/archive' >
                     <Archive />

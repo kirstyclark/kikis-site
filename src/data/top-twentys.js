@@ -1,5 +1,30 @@
 export const topTwentys = [
     {
+        date: '29.04.21',
+        contents: [
+            'The Big Lez Show',
+            'Calling instead of texting',
+            'Little scruffy dogs',
+            'Carrying a deck of cards around (in case someone wants to play cards)',
+            'Best pals',
+            'Moisturiser',
+            'Prosecco',
+            'Clara',
+            'Mushrooms',
+            'Feeling like something went well',
+            'Leg day',
+            'Independence',
+            'Looking out the window on the top deck of the bus',
+            'Common connections',
+            'Sci-fi',
+            'Music to dance to',
+            'Chips n dip',
+            'Feeling smart',
+            'Making plans',
+            'Chamomile tea'
+        ]
+    },
+    {
         date: '15.04.21',
         contents: [
             'Sore muscles the day after the gym',

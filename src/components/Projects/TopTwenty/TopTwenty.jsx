@@ -15,6 +15,7 @@ const TopTwenty = (props) => {
     const themeContext = useContext(ThemeContext);
     const {currentPlay} = props;
     const [chosenList, setList] = useState(topTwentys[0]);
+    const [alphabetisedList, setAlphabet] = useState();
 
     const handleClick = (entry) => {
         let clickedEntry = entry.target.innerHTML;
@@ -30,24 +31,11 @@ const TopTwenty = (props) => {
         let currentIndex = topTwentys.indexOf(chosenList);
         setList(topTwentys[currentIndex-1])
     }
- 
-    // const alphabet = () => {
-    //     let arrayOfArrays = [];
-    //     topTwentys.map(list => {
-    //         arrayOfArrays.push(list.contents)
-    //     })
-    //     console.log(arrayOfArrays);
-    //     let alphabeticalList = [];
-    //     arrayOfArrays.map(content => {
-    //         alphabeticalList.push(content)
-    //     });
-    //     console.log(alphabeticalList);
-    // }
 
     return (
         <div className={`contentFocus ${themeContext.theme}`}>
             <section className='headerCollapsed'>
-                <Header currentPlay={currentPlay}/>
+                <Header />
             </section>
             <section className='contentBig'>
                 <div className='contentRadio'>
@@ -57,7 +45,9 @@ const TopTwenty = (props) => {
                     </div>
                     <div className={`topTwentyGrid ${styles.topTwentyGrid}`}>
                         <div className={`gridList ${styles.gridList}`}>
-                            {/* <h4 onClick={()=>alphabet()} className={styles.click}>Alphabetised</h4> */}
+                            <Link to='/topalphabetised'>
+                                <h4>Alphabetised</h4>
+                            </Link>
                             <h4>Archive</h4>
                             <ul>
                                 {

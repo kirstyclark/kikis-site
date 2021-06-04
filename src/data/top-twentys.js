@@ -1,5 +1,30 @@
 export const topTwentys = [
     {
+        date: '03.06.21',
+        contents: [
+            'Big arms',
+            'Avalon Emerson',
+            'This song Brogan sent me https://www.youtube.com/watch?v=EBWcnGjfadY',
+            'Arriving late leaving early',
+            'Rain and sun making plants grow super fast',
+            'Not having to wear a jacket',
+            'Suncream',
+            'Sudokus',
+            'Light breeze warm air',
+            'The quiet alone time after lots of socialising',
+            'Legs out',
+            'Beavertown Neck Oil',
+            'Tanned hands',
+            'People listening to my radio',
+            'Making shit tik toks',
+            'Welsh accents',
+            'Being in with it',
+            'Cartoons',
+            'Sportswear',
+            'Clean'
+        ]
+    },
+    {
         date: '27.05.21',
         contents: [
             'Building rapor',

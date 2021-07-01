@@ -21,6 +21,7 @@ import cover from '../assets/images/feelIt/feelIt.jpg';
 import morning1 from '../assets/images/kikiMorning/morning1.jpeg';
 import morning2 from '../assets/images/kikiMorning/morning2.jpeg';
 import morning3 from '../assets/images/kikiMorning/morning3.jpeg';
+import morning4 from '../assets/images/kikiMorning/morning4.jpeg';
 
 export const shows = [
     {
@@ -228,6 +229,15 @@ export const shows = [
     },
 
 
+
+    {
+        'name' : 'Easy Like A Kiki Morning 4',
+        'category' : 'kikiMorning',
+        'date' : '14.06.21',
+        'link' : 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fwhynowworld%2Feasy-like-a-kiki-morning-140621%2F',
+        'image' : morning4,
+        'tags' : ['chat','disco','pop']
+    },
     {
         'name' : 'Easy Like A Kiki Morning 3',
         'category' : 'kikiMorning',

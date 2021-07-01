@@ -10,5 +10,7 @@ export const mystery = [
     'How many times have I nearly died? ',
     'Where is my green gap hoodie which I lost when I was 7?    ',
     'How do they predict the weather?   ',
-    'Do sheep get scared of the dark?   '
+    'Do sheep get scared of the dark?   ',
+    'How many people have dreamt of me?   ',
+    'But what actually is a snail?   ',
 ]

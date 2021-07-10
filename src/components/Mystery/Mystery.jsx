@@ -10,7 +10,7 @@ const Mystery = () => {
     //     date = (new Date()).getDate();
     // }, [])
 
-    let mysteryToday = mystery[7];
+    let mysteryToday = mystery[8];
 
     return (
         <div className={`mysteryContainer ${styles.mysteryContainer}`}>

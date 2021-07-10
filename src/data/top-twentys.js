@@ -1,5 +1,30 @@
 export const topTwentys = [
     {
+        date: '08.07.21',
+        contents: [
+            'Riding my new bike (and it moving so smoothly)',
+            'Feeling yourself getting stronger',
+            'Enjoying friends creative endeavours',
+            'Bouldering',
+            'Thick chain necklaces',
+            'Housemates',
+            'Biceps',
+            'Liberal mindset about sex',
+            'Eating with friends',
+            'Feeling like an adult',
+            'Caring for others (even if they dont care for you)',
+            'Lavender flowering',
+            'Dolphin pose',
+            'Calf muscle definition as you stop at a traffic light on your bike',
+            'Big screen',
+            'Growing more confident',
+            'Fresh bread',
+            "People's individual smells",
+            'Cuddling',
+            'Polished boots',
+        ]
+    },
+    {
         date: '01.07.21',
         contents: [
             'Feeling your organs floating within you when swimming',
